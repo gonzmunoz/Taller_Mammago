@@ -1,0 +1,22 @@
+.dataTable {
+    padding: 10px;
+    table-layout: fixed;
+    width: 98% !important;
+}
+
+div.dataTables_filter, div.dataTables_length {
+    padding-right: 10px;
+}
+
+.dataTables_info,
+.dataTables_paginate {
+    padding: 10px;
+}
+
+td {
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
